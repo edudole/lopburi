@@ -15,17 +15,17 @@ const USER_PAGES = Object.freeze({
     EXEC_URL: 'https://script.google.com/macros/s/AKfycbzcvV_8jJAwtWNVAJ3GkmNvpdjuc0eOAiuD67oD0bEJ19Pr5jvNUjdCKotJ0CwgECfjxw/exec',
     SEO_TITLE: 'ศกร.ระดับตำบล 1',
     SEO_DESCRIPTION: 'ศูนย์ส่งเสริมการเรียนรู้ตำบล 1'
-  })
+  }),
   '2': Object.freeze({
     EXEC_URL: 'https://script.google.com/macros/s/AKfycbzcvV_8jJAwtWNVAJ3GkmNvpdjuc0eOAiuD67oD0bEJ19Pr5jvNUjdCKotJ0CwgECfjxw/exec',
     SEO_TITLE: 'ศกร.ระดับตำบล 2',
     SEO_DESCRIPTION: 'ศูนย์ส่งเสริมการเรียนรู้ตำบล 2'
-  })
+  }),
   '3': Object.freeze({
     EXEC_URL: 'https://script.google.com/macros/s/USER3/exec',
     SEO_TITLE: 'ศกร.ระดับตำบล 3',
     SEO_DESCRIPTION: 'ศูนย์ส่งเสริมการเรียนรู้ตำบล 3'
-  })
+  }),
   '4': Object.freeze({
     EXEC_URL: 'https://script.google.com/macros/s/USER4/exec',
     SEO_TITLE: 'ศกร.ระดับตำบล 4',
@@ -35,7 +35,7 @@ const USER_PAGES = Object.freeze({
     EXEC_URL: 'https://script.google.com/macros/s/USER5/exec',
     SEO_TITLE: 'ศกร.ระดับตำบล 5',
     SEO_DESCRIPTION: 'ศูนย์ส่งเสริมการเรียนรู้ตำบล 5'
-  })
+  }),
   '6': Object.freeze({
     EXEC_URL: 'https://script.google.com/macros/s/USER6/exec',
     SEO_TITLE: 'ศกร.ระดับตำบล 6',
