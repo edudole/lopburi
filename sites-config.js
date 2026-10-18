@@ -17,7 +17,7 @@
       SEO_DESCRIPTION: 'ศกร.ระดับตำบลปารีส1'
     }),
         '2': Object.freeze({
-      EXEC_URL: 'https://script.google.com/macros/s/AKfycbzcvV_8jJAwtWNVAJ3GkmNvpdjuc0eOAiuD67oD0bEJ19Pr5jvNUjdCKotJ0CwgECfjxw/exec',
+      EXEC_URL: 'https://script.google.com/macros/s/AKfycbw5pZm9VzEnRuH0qE9BGwp6zQCYHlvklF39MjPDmGRmO-_K4Kk8Q4JfjFY9dK0Kkr11/exec',
       SEO_TITLE: 'ศกร.ระดับตำบลปารีส1',
       SEO_DESCRIPTION: 'ศกร.ระดับตำบลปารีส1'
     }),
