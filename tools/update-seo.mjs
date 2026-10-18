@@ -93,7 +93,7 @@ let changed=0, failed=0;
 for (const item of [...cfg.sites,...cfg.users]) {
   const file=item.kind==='site' ? sitePath(item.key) : userPath(item.key);
   try { await fs.access(file); } catch { console.log(`[skip] ${item.kind}:${item.key}: ไม่มี ${path.relative(root,file)}`); continue; }
-  if (!item.title || !item.description || (item.kind==='user' && !item.exec)) {
+  if (!item.title || !item.description) {
     console.error(`[error] ${item.kind}:${item.key}: config ไม่ครบ`); failed++; continue;
   }
   const before=await fs.readFile(file,'utf8');

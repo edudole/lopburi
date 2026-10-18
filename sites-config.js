@@ -10,11 +10,132 @@
 
   // ===== User iframe pages =====
   // เพิ่มไฟล์ใหม่: copy /user/1.html -> /user/2.html แล้วเพิ่ม entry "2" ที่นี่
+  // User 2-25: ใส่ EXEC_URL เมื่อพร้อมใช้งาน; หากว่างจะแสดงข้อความแจ้งให้กำหนดค่า
   const USER_PAGES = Object.freeze({
     '1': Object.freeze({
       EXEC_URL: 'https://script.google.com/macros/s/AKfycbzcvV_8jJAwtWNVAJ3GkmNvpdjuc0eOAiuD67oD0bEJ19Pr5jvNUjdCKotJ0CwgECfjxw/exec',
       SEO_TITLE: 'ศกร.ระดับตำบลปารีส1',
       SEO_DESCRIPTION: 'ศกร.ระดับตำบลปารีส1'
+    }),
+    '2': Object.freeze({
+      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 2
+      SEO_TITLE: 'User 2 - Learning Platform 360',
+      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 2'
+    }),
+    '3': Object.freeze({
+      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 3
+      SEO_TITLE: 'User 3 - Learning Platform 360',
+      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 3'
+    }),
+    '4': Object.freeze({
+      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 4
+      SEO_TITLE: 'User 4 - Learning Platform 360',
+      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 4'
+    }),
+    '5': Object.freeze({
+      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 5
+      SEO_TITLE: 'User 5 - Learning Platform 360',
+      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 5'
+    }),
+    '6': Object.freeze({
+      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 6
+      SEO_TITLE: 'User 6 - Learning Platform 360',
+      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 6'
+    }),
+    '7': Object.freeze({
+      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 7
+      SEO_TITLE: 'User 7 - Learning Platform 360',
+      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 7'
+    }),
+    '8': Object.freeze({
+      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 8
+      SEO_TITLE: 'User 8 - Learning Platform 360',
+      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 8'
+    }),
+    '9': Object.freeze({
+      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 9
+      SEO_TITLE: 'User 9 - Learning Platform 360',
+      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 9'
+    }),
+    '10': Object.freeze({
+      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 10
+      SEO_TITLE: 'User 10 - Learning Platform 360',
+      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 10'
+    }),
+    '11': Object.freeze({
+      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 11
+      SEO_TITLE: 'User 11 - Learning Platform 360',
+      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 11'
+    }),
+    '12': Object.freeze({
+      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 12
+      SEO_TITLE: 'User 12 - Learning Platform 360',
+      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 12'
+    }),
+    '13': Object.freeze({
+      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 13
+      SEO_TITLE: 'User 13 - Learning Platform 360',
+      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 13'
+    }),
+    '14': Object.freeze({
+      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 14
+      SEO_TITLE: 'User 14 - Learning Platform 360',
+      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 14'
+    }),
+    '15': Object.freeze({
+      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 15
+      SEO_TITLE: 'User 15 - Learning Platform 360',
+      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 15'
+    }),
+    '16': Object.freeze({
+      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 16
+      SEO_TITLE: 'User 16 - Learning Platform 360',
+      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 16'
+    }),
+    '17': Object.freeze({
+      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 17
+      SEO_TITLE: 'User 17 - Learning Platform 360',
+      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 17'
+    }),
+    '18': Object.freeze({
+      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 18
+      SEO_TITLE: 'User 18 - Learning Platform 360',
+      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 18'
+    }),
+    '19': Object.freeze({
+      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 19
+      SEO_TITLE: 'User 19 - Learning Platform 360',
+      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 19'
+    }),
+    '20': Object.freeze({
+      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 20
+      SEO_TITLE: 'User 20 - Learning Platform 360',
+      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 20'
+    }),
+    '21': Object.freeze({
+      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 21
+      SEO_TITLE: 'User 21 - Learning Platform 360',
+      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 21'
+    }),
+    '22': Object.freeze({
+      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 22
+      SEO_TITLE: 'User 22 - Learning Platform 360',
+      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 22'
+    }),
+    '23': Object.freeze({
+      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 23
+      SEO_TITLE: 'User 23 - Learning Platform 360',
+      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 23'
+    }),
+    '24': Object.freeze({
+      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 24
+      SEO_TITLE: 'User 24 - Learning Platform 360',
+      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 24'
+    }),
+    '25': Object.freeze({
+      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 25
+      SEO_TITLE: 'User 25 - Learning Platform 360',
+      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 25'
     })
   });
 

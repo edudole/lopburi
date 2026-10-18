@@ -1,17 +1,17 @@
-# /user/
+# User 1–25 — Learning Platform 360
 
-## เพิ่มไฟล์ใหม่ เช่น 2.html
-1. คัดลอก `1.html` เป็น `2.html` (หรือใช้ `_template.html`).
-2. เปิด `/sites-config.js` แล้วเพิ่ม entry ใน `USER_PAGES` เช่น:
+มีหน้า `/user/1.html` ถึง `/user/25.html` ครบแล้ว
 
-```js
-'2': Object.freeze({
-  EXEC_URL: 'https://script.google.com/macros/s/XXXXX/exec',
-  SEO_TITLE: 'ชื่อหน้า 2',
-  SEO_DESCRIPTION: 'คำอธิบายหน้า 2'
-})
-```
+## วิธีเปิดใช้งาน User ใหม่
+1. เปิดไฟล์ `/sites-config.js` และค้นหา `USER_PAGES`
+2. เลือกหมายเลข User แล้วใส่ `EXEC_URL` ที่เป็น Google Apps Script URL ลงท้าย `/exec`
+3. แก้ `SEO_TITLE` และ `SEO_DESCRIPTION` ให้เป็นชื่อและคำอธิบายของ User นั้น
+4. บันทึกและ Push ขึ้น GitHub; เปิด `https://<โดเมนของคุณ>/user/4.html` (เปลี่ยนหมายเลขตามต้องการ)
 
-3. Push ขึ้น GitHub. GitHub Action จะเขียน title/description/OG และ favicon แบบ static ให้ทุกหน้า.
+**User 1:** เก็บค่า URL และชื่อเดิมไว้แล้ว
 
-> Icon แก้ที่ `GLOBAL_ICON_URL` ใน `/sites-config.js` จุดเดียว.
+**User 2–25:** เตรียมโครงสร้างไว้ แต่ยังไม่ใส่ EXEC_URL เนื่องจากแต่ละ User ต้องมี URL จริงของตนเอง หากยังไม่ตั้งค่า หน้า User จะแสดงข้อความแจ้งแทน iframe
+
+**ไฟล์เดิม:** `1.html`, `2.html`, `3.html` คงเนื้อหาเดิม
+
+**การแสดงตัวอย่างลิงก์ LINE:** GitHub Action `tools/update-seo.mjs` จัดการ title/description/icon ของทุก User ได้ แม้ยังไม่กรอก EXEC_URL
