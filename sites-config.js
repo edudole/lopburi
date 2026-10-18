@@ -17,7 +17,7 @@ const USER_PAGES = Object.freeze({
     SEO_DESCRIPTION: 'ศูนย์ส่งเสริมการเรียนรู้ตำบล 1'
   })
   '2': Object.freeze({
-    EXEC_URL: 'https://script.google.com/macros/s/AKfycbw5pZm9VzEnRuH0qE9BGwp6zQCYHlvklF39MjPDmGRmO-_K4Kk8Q4JfjFY9dK0Kkr11/exec',
+    EXEC_URL: 'https://script.google.com/macros/s/AKfycbzcvV_8jJAwtWNVAJ3GkmNvpdjuc0eOAiuD67oD0bEJ19Pr5jvNUjdCKotJ0CwgECfjxw/exec',
     SEO_TITLE: 'ศกร.ระดับตำบล 2',
     SEO_DESCRIPTION: 'ศูนย์ส่งเสริมการเรียนรู้ตำบล 2'
   })
