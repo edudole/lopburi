@@ -12,7 +12,7 @@
   // เพิ่มไฟล์ใหม่: copy /user/1.html -> /user/2.html แล้วเพิ่ม entry "2" ที่นี่
 const USER_PAGES = Object.freeze({
   '1': Object.freeze({
-    EXEC_URL: 'https://script.google.com/macros/s/USER1/exec',
+    EXEC_URL: 'https://script.google.com/macros/s/AKfycbzcvV_8jJAwtWNVAJ3GkmNvpdjuc0eOAiuD67oD0bEJ19Pr5jvNUjdCKotJ0CwgECfjxw/exec',
     SEO_TITLE: 'ศกร.ระดับตำบล 1',
     SEO_DESCRIPTION: 'ศูนย์ส่งเสริมการเรียนรู้ตำบล 1'
   }),
