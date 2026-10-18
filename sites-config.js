@@ -15,6 +15,34 @@
       EXEC_URL: 'https://script.google.com/macros/s/AKfycbzcvV_8jJAwtWNVAJ3GkmNvpdjuc0eOAiuD67oD0bEJ19Pr5jvNUjdCKotJ0CwgECfjxw/exec',
       SEO_TITLE: 'ศกร.ระดับตำบลปารีส1',
       SEO_DESCRIPTION: 'ศกร.ระดับตำบลปารีส1'
+<<<<<<< HEAD
+=======
+    }),
+    '2': Object.freeze({
+      EXEC_URL: '',
+      SEO_TITLE: 'ศกร.ระดับตำบลปารีส2',
+      SEO_DESCRIPTION: 'ศกร.ระดับตำบลปารีส2'
+    }),
+    '3': Object.freeze({
+      EXEC_URL: '',
+      SEO_TITLE: 'ศกร.ระดับตำบลปารีส3',
+      SEO_DESCRIPTION: 'ศกร.ระดับตำบลปารีส3'
+    }),
+    '4': Object.freeze({
+      EXEC_URL: '',
+      SEO_TITLE: 'ศกร.ระดับตำบลปารีส4',
+      SEO_DESCRIPTION: 'ศกร.ระดับตำบลปารีส4'
+    }),
+    '5': Object.freeze({
+      EXEC_URL: '',
+      SEO_TITLE: 'ศกร.ระดับตำบลปารีส5',
+      SEO_DESCRIPTION: 'ศกร.ระดับตำบลปารีส5'
+    }),
+    '6': Object.freeze({
+      EXEC_URL: '',
+      SEO_TITLE: 'ศกร.ระดับตำบลปารีส6',
+      SEO_DESCRIPTION: 'ศกร.ระดับตำบลปารีส6'
+>>>>>>> d0447adbd938d46f5c17b7f1ad2234410aabe1c8
     })
   });
 
