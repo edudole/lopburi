@@ -18,7 +18,7 @@
       SEO_DESCRIPTION: 'ศกร.ระดับตำบลปารีส1'
     }),
     '2': Object.freeze({
-      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 2
+      EXEC_URL: 'https://script.google.com/macros/s/AKfycbx9LtHzKj0emEt0dJjZ_YCWxyWQbFo4XFjhnZgIDUjBBIlNazXOFEjfSSXnJxkiIIdn2g/exec', // กรอก URL Google Apps Script /exec ของ User 2
       SEO_TITLE: 'User 2 - Learning Platform 360',
       SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 2'
     }),
