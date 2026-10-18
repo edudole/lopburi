@@ -10,73 +10,38 @@
 
   // ===== User iframe pages =====
   // เพิ่มไฟล์ใหม่: copy /user/1.html -> /user/2.html แล้วเพิ่ม entry "2" ที่นี่
-<<<<<<< HEAD
   const USER_PAGES = Object.freeze({
     '1': Object.freeze({
       EXEC_URL: 'https://script.google.com/macros/s/AKfycbzcvV_8jJAwtWNVAJ3GkmNvpdjuc0eOAiuD67oD0bEJ19Pr5jvNUjdCKotJ0CwgECfjxw/exec',
       SEO_TITLE: 'ศกร.ระดับตำบลปารีส1',
       SEO_DESCRIPTION: 'ศกร.ระดับตำบลปารีส1'
     }),
-        '2': Object.freeze({
+    '2': Object.freeze({
       EXEC_URL: '',
-      SEO_TITLE: 'ศกร.ระดับตำบลปารีส1',
-      SEO_DESCRIPTION: 'ศกร.ระดับตำบลปารีส1'
+      SEO_TITLE: 'ศกร.ระดับตำบลปารีส2',
+      SEO_DESCRIPTION: 'ศกร.ระดับตำบลปารีส2'
     }),
-            '3': Object.freeze({
+    '3': Object.freeze({
       EXEC_URL: '',
-      SEO_TITLE: 'ศกร.ระดับตำบลปารีส1',
-      SEO_DESCRIPTION: 'ศกร.ระดับตำบลปารีส1'
+      SEO_TITLE: 'ศกร.ระดับตำบลปารีส3',
+      SEO_DESCRIPTION: 'ศกร.ระดับตำบลปารีส3'
     }),
-            '4': Object.freeze({
+    '4': Object.freeze({
       EXEC_URL: '',
-      SEO_TITLE: 'ศกร.ระดับตำบลปารีส1',
-      SEO_DESCRIPTION: 'ศกร.ระดับตำบลปารีส1'
+      SEO_TITLE: 'ศกร.ระดับตำบลปารีส4',
+      SEO_DESCRIPTION: 'ศกร.ระดับตำบลปารีส4'
     }),
-            '5': Object.freeze({
+    '5': Object.freeze({
       EXEC_URL: '',
-      SEO_TITLE: 'ศกร.ระดับตำบลปารีส1',
-      SEO_DESCRIPTION: 'ศกร.ระดับตำบลปารีส1'
+      SEO_TITLE: 'ศกร.ระดับตำบลปารีส5',
+      SEO_DESCRIPTION: 'ศกร.ระดับตำบลปารีส5'
     }),
-            '6': Object.freeze({
+    '6': Object.freeze({
       EXEC_URL: '',
-      SEO_TITLE: 'ศกร.ระดับตำบลปารีส1',
-      SEO_DESCRIPTION: 'ศกร.ระดับตำบลปารีส1'
+      SEO_TITLE: 'ศกร.ระดับตำบลปารีส6',
+      SEO_DESCRIPTION: 'ศกร.ระดับตำบลปารีส6'
     })
   });
-=======
-const USER_PAGES = Object.freeze({
-  '1': Object.freeze({
-    EXEC_URL: 'https://script.google.com/macros/s/AKfycbzcvV_8jJAwtWNVAJ3GkmNvpdjuc0eOAiuD67oD0bEJ19Pr5jvNUjdCKotJ0CwgECfjxw/exec',
-    SEO_TITLE: 'ศกร.ระดับตำบล 1',
-    SEO_DESCRIPTION: 'ศูนย์ส่งเสริมการเรียนรู้ตำบล 1'
-  }),
-  '2': Object.freeze({
-    EXEC_URL: 'https://script.google.com/macros/s/AKfycbzcvV_8jJAwtWNVAJ3GkmNvpdjuc0eOAiuD67oD0bEJ19Pr5jvNUjdCKotJ0CwgECfjxw/exec',
-    SEO_TITLE: 'ศกร.ระดับตำบล 2',
-    SEO_DESCRIPTION: 'ศูนย์ส่งเสริมการเรียนรู้ตำบล 2'
-  }),
-  '3': Object.freeze({
-    EXEC_URL: 'https://script.google.com/macros/s/USER3/exec',
-    SEO_TITLE: 'ศกร.ระดับตำบล 3',
-    SEO_DESCRIPTION: 'ศูนย์ส่งเสริมการเรียนรู้ตำบล 3'
-  }),
-  '4': Object.freeze({
-    EXEC_URL: 'https://script.google.com/macros/s/USER4/exec',
-    SEO_TITLE: 'ศกร.ระดับตำบล 4',
-    SEO_DESCRIPTION: 'ศูนย์ส่งเสริมการเรียนรู้ตำบล 4'
-  })
-  '5': Object.freeze({
-    EXEC_URL: 'https://script.google.com/macros/s/USER5/exec',
-    SEO_TITLE: 'ศกร.ระดับตำบล 5',
-    SEO_DESCRIPTION: 'ศูนย์ส่งเสริมการเรียนรู้ตำบล 5'
-  }),
-  '6': Object.freeze({
-    EXEC_URL: 'https://script.google.com/macros/s/USER6/exec',
-    SEO_TITLE: 'ศกร.ระดับตำบล 6',
-    SEO_DESCRIPTION: 'ศูนย์ส่งเสริมการเรียนรู้ตำบล 6'
-  })
-});
->>>>>>> 3741f6507edda04c161de4f563fc484caa00d564
 
   const SITES = Object.freeze({
     district: Object.freeze({
