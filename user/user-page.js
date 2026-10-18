@@ -20,12 +20,7 @@
     if (frame) frame.hidden = true;
     if (error) {
       error.hidden = false;
-      const configLoaded = !!window.LP360_USER_PAGES_CONFIG;
-      if (!configLoaded) {
-        error.textContent = 'โหลด sites-config.js ไม่สำเร็จ หรือไฟล์ที่เผยแพร่ยังเป็นเวอร์ชันเก่า กรุณาตรวจสอบไฟล์ ../sites-config.js บนเว็บไซต์และรีเฟรชแบบไม่ใช้แคช (Ctrl+F5)';
-      } else {
-        error.textContent = 'ยังไม่ได้กำหนด USER_PAGES[\'' + key + '\'] ใน sites-config.js ที่เว็บไซต์กำลังใช้งานอยู่';
-      }
+      error.textContent = 'ยังไม่ได้กำหนด USER_PAGES[\'' + key + '\'] ใน sites-config.js';
     }
     return;
   }
