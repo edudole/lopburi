@@ -6,7 +6,7 @@
   'use strict';
   // ===== Global shared icon =====
   // แก้ URL รูปที่นี่จุดเดียว แล้วใช้ร่วมกันกับเว็บอำเภอ/ตำบล/ห้องสมุด และ /user/*.html
-  const GLOBAL_ICON_URL = 'https://static.wixstatic.com/media/a503e5_b1f34c9cb73e40a0b027042bb3f6c959~mv2.png';
+  const GLOBAL_ICON_URL = 'https://static.wixstatic.com/media/a503e5_55b0959c5ce64be9bc2e8cb06ad4fcd0~mv2.png';
 
   // ===== User iframe pages =====
   // เพิ่มไฟล์ใหม่: copy /user/1.html -> /user/2.html แล้วเพิ่ม entry "2" ที่นี่
