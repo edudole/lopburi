@@ -13,129 +13,139 @@
   // User 2-25: ใส่ EXEC_URL เมื่อพร้อมใช้งาน; หากว่างจะแสดงข้อความแจ้งให้กำหนดค่า
   const USER_PAGES = Object.freeze({
     '1': Object.freeze({
-      EXEC_URL: 'https://script.google.com/macros/s/AKfycbzcvV_8jJAwtWNVAJ3GkmNvpdjuc0eOAiuD67oD0bEJ19Pr5jvNUjdCKotJ0CwgECfjxw/exec',
-      SEO_TITLE: 'ศกร.ระดับตำบลปารีส1',
-      SEO_DESCRIPTION: 'ศกร.ระดับตำบลปารีส1'
+      EXEC_URL: 'https://script.google.com/macros/s/AKfycbykZh8IUDLwRStAvvoh_ISosL0TT_BiChm-c6P5tBdKUph2V3hEXSDtiOyYHpfHI6mz/exec',
+      SEO_TITLE: 'ศกร.ระดับตำบลโคกลำพาน',
+      SEO_DESCRIPTION: 'ศกร.ระดับตำบลโคกลำพาน'
     }),
     '2': Object.freeze({
-      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 2
-      SEO_TITLE: 'User 2 - Learning Platform 360',
-      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 2'
+      EXEC_URL: 'https://script.google.com/macros/s/AKfycbwfurGYjuS6TemkSM9lplWTbgyejDAWjZpcL3xLp259Svr4INwYKMTWeEZRoZoSRTVO/exec', // กรอก URL Google Apps Script /exec ของ User 2
+      SEO_TITLE: 'ศกร.ระดับคำบลเขาสามยอด2',
+      SEO_DESCRIPTION: 'ศกร.ระดับคำบลเขาสามยอด2'
     }),
     '3': Object.freeze({
-      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 3
-      SEO_TITLE: 'User 3 - Learning Platform 360',
-      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 3'
+      EXEC_URL: 'https://script.google.com/macros/s/AKfycbztMueg4k6ApQORLKwKXc8N2DJvyGdwtQAvmm0DtsOsEOQEzUfhI0g5V-4H48uUpe1Zlg/exec', // กรอก URL Google Apps Script /exec ของ User 3
+      SEO_TITLE: 'ศกร.ระดับตำบลกกโก',
+      SEO_DESCRIPTION: 'ศกร.ระดับตำบลกกโก'
     }),
     '4': Object.freeze({
-      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 4
-      SEO_TITLE: 'User 4 - Learning Platform 360',
-      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 4'
+      EXEC_URL: 'https://script.google.com/macros/s/AKfycbw0hjz1m5fyqb104tNnCoYIWaLta209va0HEArhgGLTIayD99k0CBWc5TEPv7E_-PWx/exec', // กรอก URL Google Apps Script /exec ของ User 4
+      SEO_TITLE: 'ศกร.ระดับตำบลสี่คลอง',
+      SEO_DESCRIPTION: 'ศกร.ระดับตำบลสี่คลอง'
     }),
     '5': Object.freeze({
-      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 5
-      SEO_TITLE: 'User 5 - Learning Platform 360',
-      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 5'
+      EXEC_URL: 'https://script.google.com/macros/s/AKfycbyjMDcuL42vY0PT6_enXRPzkluLDpXdX4Q0BigAAhNvUvGJp1yD0-tRKK6jUced5IWR_g/exec', // กรอก URL Google Apps Script /exec ของ User 5
+      SEO_TITLE: 'ศกร.ระดับตำบลโก่งธนู',
+      SEO_DESCRIPTION: 'ศกร.ระดับตำบลโก่งธนู'
     }),
     '6': Object.freeze({
-      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 6
-      SEO_TITLE: 'User 6 - Learning Platform 360',
-      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 6'
+      EXEC_URL: 'https://script.google.com/macros/s/AKfycbyYmpyX0Jht_H1Xd6p-wGz9DdpDVrVjs0Mb1Oo_CMaC0mdOFN1HflGwjMUzdEQQFFDvLw/exec', // กรอก URL Google Apps Script /exec ของ User 6
+      SEO_TITLE: 'ศกร.ระดับตำบลเขาพระงาม',
+      SEO_DESCRIPTION: 'ศกร.ระดับตำบลเขาพระงาม'
     }),
     '7': Object.freeze({
-      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 7
-      SEO_TITLE: 'User 7 - Learning Platform 360',
-      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 7'
+      EXEC_URL: 'https://script.google.com/macros/s/AKfycbxmdQONOQ-jdz8ZW-1JpQjypMQdeIMzXhRQ3aI8l_vdymYHcNhAi0zrqEqCkHN6-Q0iuQ/exec', // กรอก URL Google Apps Script /exec ของ User 7
+      SEO_TITLE: 'ศกร.ระดับตำบลเขาสามยอด',
+      SEO_DESCRIPTION: 'ศกร.ระดับตำบลเขาสามยอด'
     }),
     '8': Object.freeze({
-      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 8
-      SEO_TITLE: 'User 8 - Learning Platform 360',
-      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 8'
+      EXEC_URL: 'https://script.google.com/macros/s/AKfycbzI0UEH9_pJFZdCjeMPytdZscI7CF-5U8F7LubYkawTYgDrgkuGe7bagYsqiW6x33cw/exec', // กรอก URL Google Apps Script /exec ของ User 8
+      SEO_TITLE: 'ศกร.ระดับตำบลโคกกะเทียม',
+      SEO_DESCRIPTION: 'ศกร.ระดับตำบลโคกกะเทียม'
     }),
     '9': Object.freeze({
-      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 9
-      SEO_TITLE: 'User 9 - Learning Platform 360',
-      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 9'
+      EXEC_URL: 'https://script.google.com/macros/s/AKfycbwt8luye0xTQhUV-ywIdcOVNLEoQmbMAL0_vRFM1d8AysJ2kYFcxdPiY9nP7-E5Tsre/exec', // กรอก URL Google Apps Script /exec ของ User 9
+      SEO_TITLE: 'ศกร.ระดับตำบลโพธิ์เก้าต้น',
+      SEO_DESCRIPTION: 'ศกร.ระดับตำบลโพธิ์เก้าต้น'
     }),
     '10': Object.freeze({
-      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 10
-      SEO_TITLE: 'User 10 - Learning Platform 360',
-      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 10'
+      EXEC_URL: 'https://script.google.com/macros/s/AKfycbxSKGDT6lmAkejenqK2NzhBShGXcLJzz5tZ54hpmn8boPnlKgOT8VDFM15GPXYnK2WgmQ/exec', // กรอก URL Google Apps Script /exec ของ User 10
+      SEO_TITLE: 'ศกร.ระดับตำบลโคกตูม',
+      SEO_DESCRIPTION: 'ศกร.ระดับตำบลโคกตูม'
     }),
     '11': Object.freeze({
-      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 11
-      SEO_TITLE: 'User 11 - Learning Platform 360',
-      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 11'
+      EXEC_URL: 'https://script.google.com/macros/s/AKfycbwmaMwQP9focosrHtxFTgDkLUEo9oYGWGSv3eFIbaO54VTzbqx98vdLQ_ZQGaIY5L5VWw/exec', // กรอก URL Google Apps Script /exec ของ User 11
+      SEO_TITLE: 'ศกร.ท่าศาลา',
+      SEO_DESCRIPTION: 'ศกร.ท่าศาลา'
     }),
     '12': Object.freeze({
-      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 12
-      SEO_TITLE: 'User 12 - Learning Platform 360',
-      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 12'
+      EXEC_URL: 'https://script.google.com/macros/s/AKfycbyqJZ53--KvhHT88CwdfrwmV5hM0PaAA_gPLTt6R90sMnPSzkg37-F_XYqCysjyLrvk/exec', // กรอก URL Google Apps Script /exec ของ User 12
+      SEO_TITLE: 'ศกร.ระดับตำบลดอนโพธิ์',
+      SEO_DESCRIPTION: 'ศกร.ระดับตำบลดอนโพธิ์'
     }),
     '13': Object.freeze({
-      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 13
-      SEO_TITLE: 'User 13 - Learning Platform 360',
-      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 13'
+      EXEC_URL: 'https://script.google.com/macros/s/AKfycbwRH257UhgMvVrGPAxAmPJkGYEHbA5tYRB6Dm__2fYZr9-ogobdTE3VBSAYHOsKmkq7/exec', // กรอก URL Google Apps Script /exec ของ User 13
+      SEO_TITLE: 'ศกร.ระดับตำบลท่าแค',
+      SEO_DESCRIPTION: 'ศกร.ระดับตำบลท่าแค'
     }),
     '14': Object.freeze({
-      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 14
-      SEO_TITLE: 'User 14 - Learning Platform 360',
-      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 14'
+      EXEC_URL: 'https://script.google.com/macros/s/AKfycbxnxwDY6hljS4ku-dlgTfxEyAhN64RTg2cwd3HKL8a1jnYFfbwFusSiBjgH3u6qJa59DQ/exec', // กรอก URL Google Apps Script /exec ของ User 14
+      SEO_TITLE: 'ศกร.ระดับตำบลบางขันหมาก',
+      SEO_DESCRIPTION: 'ศกร.ระดับตำบลบางขันหมาก'
     }),
     '15': Object.freeze({
-      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 15
-      SEO_TITLE: 'User 15 - Learning Platform 360',
-      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 15'
+      EXEC_URL: 'https://script.google.com/macros/s/AKfycbxPo7TIYBmtS8WIXAtmg6Tiw1AyLgD5ORsb4B2sT1RXive39KbFIcjLgaI2ySa7ET5SGA/exec', // กรอก URL Google Apps Script /exec ของ User 15
+      SEO_TITLE: 'ศกร.ระดับตำบลป่าตาล',
+      SEO_DESCRIPTION: 'ศกร.ระดับตำบลป่าตาล'
     }),
     '16': Object.freeze({
-      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 16
-      SEO_TITLE: 'User 16 - Learning Platform 360',
-      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 16'
+      EXEC_URL: 'https://script.google.com/macros/s/AKfycbyK2_4gsMfWfKe2R_yN00n0jABPE1HOct1DtCrDMcoK1RyvWIW4FschoBGvZeBW12Am/exec', // กรอก URL Google Apps Script /exec ของ User 16
+      SEO_TITLE: 'ศกร.ระดับตำบลท่าหิน',
+      SEO_DESCRIPTION: 'ศกร.ระดับตำบลท่าหิน'
     }),
     '17': Object.freeze({
-      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 17
-      SEO_TITLE: 'User 17 - Learning Platform 360',
-      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 17'
+      EXEC_URL: 'https://script.google.com/macros/s/AKfycbwNPYjC-O2zgqfMe_hK-sbN8xgX7vpkpdd7kfwM7-E5KmHw02QME_FuXkAuMHNgFsLS/exec', // กรอก URL Google Apps Script /exec ของ User 17
+      SEO_TITLE: 'ศกร.ระดับตำบลถนนใหญ่',
+      SEO_DESCRIPTION: 'ศกร.ระดับตำบลถนนใหญ่'
     }),
     '18': Object.freeze({
-      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 18
-      SEO_TITLE: 'User 18 - Learning Platform 360',
-      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 18'
+      EXEC_URL: 'https://script.google.com/macros/s/AKfycbwR5alK4Q2OKQMdWbpXONTeAkqNn_5_Yvs90gB-WqLZ2T3BTfopGetGfCgAn77Pt4Wu/exec', // กรอก URL Google Apps Script /exec ของ User 18
+      SEO_TITLE: 'ศกร.ระดับตำบลนิคมสร้างตนเอง',
+      SEO_DESCRIPTION: 'ศกร.ระดับตำบลนิคมสร้างตนเอง'
     }),
     '19': Object.freeze({
-      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 19
-      SEO_TITLE: 'User 19 - Learning Platform 360',
-      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 19'
+      EXEC_URL: 'https://script.google.com/macros/s/AKfycbzfqTtL3miA8PD-miRSVwi7p2mjgTfjy6KHLLgHbOxr5aBoRj6gNENxIYiYXyuDytFSsg/exec', // กรอก URL Google Apps Script /exec ของ User 19
+      SEO_TITLE: 'ศกร.ระดับตำบลบ้านข่อย',
+      SEO_DESCRIPTION: 'ศกร.ระดับตำบลบ้านข่อย'
     }),
     '20': Object.freeze({
-      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 20
-      SEO_TITLE: 'User 20 - Learning Platform 360',
-      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 20'
+      EXEC_URL: 'https://script.google.com/macros/s/AKfycby4hnVKdxFvlRgqawx1c1pIdP1sqxxh5yJVDjnW1YZhWGZYLlkSmUB_A3uBsYHu490/exec', // กรอก URL Google Apps Script /exec ของ User 20
+      SEO_TITLE: 'ศกร.ระดับตำบลตะลุง',
+      SEO_DESCRIPTION: 'ศกร.ระดับตำบลตะลุง'
     }),
     '21': Object.freeze({
-      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 21
-      SEO_TITLE: 'User 21 - Learning Platform 360',
-      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 21'
+      EXEC_URL: 'https://script.google.com/macros/s/AKfycbw8-5Z4pCXfGpFxIh3bmZbDc51_y2i7VV9meu6-NIV3l5s-l-P6Eyz-rsNcXFJ381Sz/exec', // กรอก URL Google Apps Script /exec ของ User 21
+      SEO_TITLE: 'ศกร.ระดับตำบลพรหมมาสตร์',
+      SEO_DESCRIPTION: 'ศกร.ระดับตำบลพรหมมาสตร์'
     }),
     '22': Object.freeze({
-      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 22
-      SEO_TITLE: 'User 22 - Learning Platform 360',
-      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 22'
+      EXEC_URL: 'https://script.google.com/macros/s/AKfycbyKHDdsyMFt5PpxKLF7nIeffzUiEKK6Na5-onqsE1pJZMUEJOiS74cij6EZQEa5IdqB/exec', // กรอก URL Google Apps Script /exec ของ User 22
+      SEO_TITLE: 'ศกร.ระดับตำบลทะเลชุบศร',
+      SEO_DESCRIPTION: 'ศกร.ระดับตำบลทะเลชุบศร'
     }),
     '23': Object.freeze({
-      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 23
-      SEO_TITLE: 'User 23 - Learning Platform 360',
-      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 23'
+      EXEC_URL: 'https://script.google.com/macros/s/AKfycbyYldUXqdDhbmEvKdn510np-xTN8lx1OxA5OpPveF0qsiojginDbOaDRPhE33fYokuy/exec', // กรอก URL Google Apps Script /exec ของ User 23
+      SEO_TITLE: 'ศกร.ระดับตำบลท้ายตลาด',
+      SEO_DESCRIPTION: 'ศกร.ระดับตำบลท้ายตลาด'
     }),
     '24': Object.freeze({
-      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 24
-      SEO_TITLE: 'User 24 - Learning Platform 360',
-      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 24'
+      EXEC_URL: 'https://script.google.com/macros/s/AKfycbyM4JdGmcQsTgffIVbh5wUl3DBBG03B_DU24Gm16mAwYJGZ-zx43wHFFhbD4FzewA517g/exec', // กรอก URL Google Apps Script /exec ของ User 24
+      SEO_TITLE: 'ศกร.ระดับตำบลงิ้วราย',
+      SEO_DESCRIPTION: 'ศกร.ระดับตำบลงิ้วราย'
     }),
-    '25': Object.freeze({
-      EXEC_URL: '', // กรอก URL Google Apps Script /exec ของ User 25
-      SEO_TITLE: 'User 25 - Learning Platform 360',
-      SEO_DESCRIPTION: 'ระบบช่วยเหลือผู้เรียน Learning Platform 360 - User 25'
+        '25': Object.freeze({
+      EXEC_URL: 'https://script.google.com/macros/s/AKfycbx-lVFrjCYO4hJW9tDXvaULgd-8m2g8h3bESLkYBA0iX2zlGYha0E1o3lujg0BAix_p/exec', // กรอก URL Google Apps Script /exec ของ User 24
+      SEO_TITLE: 'ศกร.ระดับตำบลโพธิ์ตรุ',
+      SEO_DESCRIPTION: 'ศกร.ระดับตำบลโพธิ์ตรุ'
+    }),
+        '26': Object.freeze({
+      EXEC_URL: 'https://script.google.com/macros/s/AKfycbwpCFeoE-aYvPmuUNBFPEVwdRGedjvqkCV2MlBIKWHOROIXn7XQW6p2eP4_cP-EpYAB/exec', // กรอก URL Google Apps Script /exec ของ User 24
+      SEO_TITLE: 'ศกร.ระดับตำบลทะเลชุบศร',
+      SEO_DESCRIPTION: 'ศกร.ระดับตำบลทะเลชุบศร'
+    }),
+    '27': Object.freeze({
+      EXEC_URL: 'https://script.google.com/macros/s/AKfycbwHZ_C0Cu8d6XNvXkSyzA9VcmplGzPHOI_Xw2NwX-IENUjWjUIFsrKy7bGZNDzgkWj-/exec', // กรอก URL Google Apps Script /exec ของ User 25
+      SEO_TITLE: 'ครูผู้สอนคนพิการ',
+      SEO_DESCRIPTION: 'ครูผู้สอนคนพิการ'
     })
   });
 
