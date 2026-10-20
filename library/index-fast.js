@@ -931,6 +931,10 @@ function renderSettingMenus(items) {
         role="button"
         tabindex="${index === newsIndex ? '0' : '-1'}"
         aria-label="เปิดรายละเอียด ${escapeHtml(item.title)}">
+        <div
+          class="news-slide-bg"
+          aria-hidden="true"
+          style="background-image:url('${escapeHtml(item.image)}')"></div>
         <img
           src="${escapeHtml(item.image)}"
           alt="${escapeHtml(item.title)}"
