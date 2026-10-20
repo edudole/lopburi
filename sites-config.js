@@ -374,11 +374,18 @@
       STUDENT_PROFILE_EXEC_URL: "https://script.google.com/macros/s/AKfycbyjMDcuL42vY0PT6_enXRPzkluLDpXdX4Q0BigAAhNvUvGJp1yD0-tRKK6jUced5IWR_g/exec",
       CACHE_PREFIX: "LP360:TAMBOL:KONGTHANU:"
     }),
-    library: Object.freeze({
+    librarylopburi1: Object.freeze({
       SITE_TYPE: 'LIBRARY',
-      SEO_TITLE: "เว็บไซต์ห้องสมุดตัวอย่าง",
-      SEO_DESCRIPTION: "เว็บไซต์ห้องสมุดประชาชน",
-      MAIN_EXEC_URL: 'https://script.google.com/macros/s/AKfycbwjxamEm78z1EzEg29ZdAOlsicha9sBB_c0wqYaVU8vqm8YBcbk1fxlOeApojTfJkb9/exec',
+      SEO_TITLE: "ห้องสมุดประชาชนจังหวัดลพบุรี",
+      SEO_DESCRIPTION: "ห้องสมุดประชาชนจังหวัดลพบุรี",
+      MAIN_EXEC_URL: 'https://script.google.com/macros/s/AKfycbzWvVlV7xzUpPMpzyeyL0HVOX240IxGc-lCO6d3JMTcfw_ShAV8QhVvbCXfTrMn5P7a/exec',
+      CACHE_PREFIX: 'LP360:LIBRARY:MAIN:'
+    }),
+    librarylopburi2: Object.freeze({
+      SITE_TYPE: 'LIBRARY',
+      SEO_TITLE: "ห้องสมุดประชาชน เฉลิมราชกุมารี อําเภอเมืองลพบุรี",
+      SEO_DESCRIPTION: "ห้องสมุดประชาชน เฉลิมราชกุมารี อําเภอเมืองลพบุรี",
+      MAIN_EXEC_URL: 'https://script.google.com/macros/s/AKfycbx7-5VJNAmlWY0YAnMYVByJx9DbsUJHeSdxr0kju1ojCXy4TE0MZAlbNxR8Dtzg02zt/exec',
       CACHE_PREFIX: 'LP360:LIBRARY:MAIN:'
     }),
   });
