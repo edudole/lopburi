@@ -354,7 +354,7 @@
       SITE_TYPE: 'TAMBOL',
       SEO_TITLE: "ครูผู้สอนคนพิการ",
       SEO_DESCRIPTION: "เว็บไซต์ศูนย์การเรียนรู้ระดับตำบล เรียนรู้ทุกที่ ทุกเวลา ทุกช่วงวัย",
-      MAIN_EXEC_URL: "https://script.google.com/macros/s/AKfycbyUJthg1hG2smRRzzQ28YfdD2hPQVJ_59Jxau0sjyX4-eyIsaxYxRH3iCzL8NbfUQ4X/exec",
+      MAIN_EXEC_URL: "https://script.google.com/macros/s/AKfycbz_6UM9u2d7tymwKZ13j-Yxwi_HljfW24om7Vc5Wt_bPfazsl274-5ck5WbiNTdKxv-/exec",
       STUDENT_PROFILE_EXEC_URL: "https://script.google.com/macros/s/AKfycbwHZ_C0Cu8d6XNvXkSyzA9VcmplGzPHOI_Xw2NwX-IENUjWjUIFsrKy7bGZNDzgkWj-/exec",
       CACHE_PREFIX: "LP360:TAMBOL:SPECIAL-ED:"
     }),
