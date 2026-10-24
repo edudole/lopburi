@@ -152,8 +152,8 @@
   const SITES = Object.freeze({
     district: Object.freeze({
       SITE_TYPE: 'DISTRICT',
-      SEO_TITLE: "เว็บไซต์ สกร.ระดับอำเภอตัวอย่าง",
-      SEO_DESCRIPTION: "เว็บไซต์ศูนย์ส่งเสริมการเรียนรู้ระดับอำเภอ",
+      SEO_TITLE: "เว็บไซต์ สกร.ระดับอำเภอเมืองลพบุรี",
+      SEO_DESCRIPTION: "เว็บไซต์ศูนย์ส่งเสริมการเรียนรู้ระดับอำเภอเมืองลพบุรี",
       MAIN_EXEC_URL: 'https://script.google.com/macros/s/AKfycbyGRs8U6Y_90v4vp-b89DbPys6XdK10wNfk6wr9GlOodS56eCmt9mRAQaor06sPXSyw/exec',
       STUDENT_PROFILE_EXEC_URL: 'https://script.google.com/macros/s/AKfycbwSh6yjzEbHKVTQ4yELx6tHZsHY9NSOb53IohWwt84RuCl8hDYxQYJHho-bSNmRbwxB/exec',
       CACHE_PREFIX: 'LP360:DISTRICT:ROOT:'
@@ -354,7 +354,7 @@
       SITE_TYPE: 'TAMBOL',
       SEO_TITLE: "ครูผู้สอนคนพิการ",
       SEO_DESCRIPTION: "เว็บไซต์ศูนย์การเรียนรู้ระดับตำบล เรียนรู้ทุกที่ ทุกเวลา ทุกช่วงวัย",
-      MAIN_EXEC_URL: "https://script.google.com/macros/s/AKfycbyUJthg1hG2smRRzzQ28YfdD2hPQVJ_59Jxau0sjyX4-eyIsaxYxRH3iCzL8NbfUQ4X/exec",
+      MAIN_EXEC_URL: "https://script.google.com/macros/s/AKfycbz_6UM9u2d7tymwKZ13j-Yxwi_HljfW24om7Vc5Wt_bPfazsl274-5ck5WbiNTdKxv-/exec",
       STUDENT_PROFILE_EXEC_URL: "https://script.google.com/macros/s/AKfycbwHZ_C0Cu8d6XNvXkSyzA9VcmplGzPHOI_Xw2NwX-IENUjWjUIFsrKy7bGZNDzgkWj-/exec",
       CACHE_PREFIX: "LP360:TAMBOL:SPECIAL-ED:"
     }),
